@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+     overflow: hidden; 
 }
 .row {
     margin-left: 0;
@@ -11,12 +12,35 @@ body {
     padding-right: 0;
 }
 
-#title {
-    background: #4f4a46;
+source {
+    height: 100vh;
+    width: 100%;
+} 
+
+#title-box {
+    background: rgba(79, 74, 70, .75);
     color: #fff;
-    vertical-align: middle;
-    padding: 30px 15px;
+    /* font-size: 20px; */
+    /* vertical-align: middle; */
+    padding: 30px 0 40px; 
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+     -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    display: none;
 }
+
+h1 {
+    margin-top: 5px;
+}
+
+/* #title-text {
+    font-size: 60px; 
+}  */
 
 .blue {
     color: #1b90f6;

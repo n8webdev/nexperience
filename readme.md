@@ -12,7 +12,9 @@ This page is aimed to inform users we're currently updating our website.
   * horizontally and vertically centered;
   * behave responsively according to standardized widths.
 
-## Make ir Right
-
+## Make it Right
+* Position the #title above (z-index: 2) the background image;
+* #title must be centered exactly in the middle of the viewport;
+* Background image should fill the whole viewport's height on mobile;
 
 ## Make it Fast

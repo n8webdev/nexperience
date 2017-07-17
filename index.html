@@ -9,20 +9,26 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+        <div id="title-box" class="col-xs-12 col-md-12 text-center">
+            <h1 class="h1" id="title-text">ne<span class="blue">X</span>perience<span class="blue">.io</span></h1>
+            <p>Estamos trabalhando para melhorar nossa página.</p>
+        </div>
         <div class="container-full">
             <div class="row">
                 <div class="col-md-12">
-                    <img class='img-responsive' src="images/page-bg.jpg" alt="nexperience.io">
-                    <div id="title" class="col-md-12 text-center">
-                        <h1>ne<span class="blue">X</span>perience<span class="blue">.io</span></h1>
-                        <p>"Aquele que deixa melhorar deixa de ser bom."</p>
-                        <p>Estamos trabalhando para melhorar nossa página.</p>
-                    </div>
+                     <picture>
+                        <source media="(min-width: 993px)" srcset="images/page-bg-md.jpg">
+                        <source media="(min-width: 427px)" srcset="images/page-bg-sm.jpg">
+                        <source media="(max-width: 426px)" srcset="images/page-bg-xs.jpg">
+                        <img src="images/page-bg-xs.jpg" alt="nexperience.io" style="width:auto;">
+                    </picture> 
                 </div>
             </div>
         </div>
 
         <!-- jquery -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+        <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
