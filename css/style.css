@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+} 
+
+.col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#title {
+    background: #4f4a46;
+    color: #fff;
+    vertical-align: middle;
+    padding: 30px 15px;
+}
+
+.blue {
+    color: #1b90f6;
+}
