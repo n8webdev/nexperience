@@ -18,3 +18,6 @@ This page is aimed to inform users we're currently updating our website.
 * Background image should fill the whole viewport's height on mobile;
 
 ## Make it Fast
+* Install serviceWorker;
+* Store Images locally;
+* Work offline.
